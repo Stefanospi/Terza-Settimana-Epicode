@@ -1,0 +1,47 @@
+/*stile*/
+
+body{
+    background-color:white;
+}
+
+form{
+    padding:45px;
+    text-align: center;
+    background-color: rgb(86, 58, 58);
+    display: list-item;
+    border-radius: 5px;
+    margin-top: 250px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 1px 1px 10px black;
+
+}
+
+form h2{
+    text-align: center;
+    color: white;
+}
+
+form input{
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+}
+
+form button {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#task {
+    background-color: rgb(41, 37, 37);
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 5px;
+}
+
+.taskcompleta{
+    text-decoration: line-through;
+}
