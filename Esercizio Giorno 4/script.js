@@ -40,8 +40,8 @@ const generatoreRandom = function (num) {
     // associare la classe...
     const random = generatoreRandomNum(num);
     const button = document.getElementById("buttonGen");
+    const casellaGen = document.getElementById("numRand");
     button.addEventListener('click',function(){
-        const casellaGen = document.getElementById("numRand");
         casellaGen.innerText = 'Numero: ' +  random;
     });
     
@@ -55,3 +55,9 @@ const generateUserBoards = function () {
 }
 
 
+const handleFormSubmit = function (e) {
+    e.preventDefault();
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit',handleFormSubmit);
